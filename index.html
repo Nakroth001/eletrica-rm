@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elétrica RM | Energia e Soluções Elétricas</title>
+<meta name="description" content="Padrões de energia, energia solar e materiais elétricos. Conheça as soluções da Elétrica RM.">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#0b0d10;color:#fff;line-height:1.6}
+.container{width:min(1100px,90%);margin:auto}
+header{padding:20px 0;border-bottom:1px solid #292d32}
+nav{display:flex;align-items:center;justify-content:space-between;gap:15px}
+.logo{font-size:24px;font-weight:900}
+.logo span,h1 span{color:#ffc928}
+a{text-decoration:none}
+.btn{display:inline-block;background:#ffc928;color:#111;padding:13px 19px;border-radius:7px;font-weight:bold}
+.hero{padding:90px 0;background:linear-gradient(90deg,#0b0d10 10%,rgba(11,13,16,.8)),url('https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1600&q=85') center/cover}
+.hero-content{max-width:680px}
+.tag{color:#ffc928;font-size:12px;font-weight:bold;letter-spacing:2px;text-transform:uppercase}
+h1{font-size:clamp(38px,7vw,65px);line-height:1.08;margin:18px 0}
+p{color:#b8bec7}
+.hero p{font-size:18px;max-width:580px}
+.hero .btn{margin-top:25px}
+section{padding:70px 0}
+h2{font-size:clamp(28px,4vw,40px);line-height:1.2;margin:12px 0}
+.intro{margin:12px 0 30px;max-width:620px}
+.services{display:grid;grid-template-columns:repeat(4,1fr);gap:17px;margin-top:30px}
+.card{padding:25px 20px;background:#15191e;border:1px solid #292e35;border-radius:12px;transition:.2s}
+.card:hover{border-color:#ffc928;transform:translateY(-4px)}
+.icon{font-size:30px}
+.card h3{margin:12px 0 8px}
+.card p{font-size:14px}
+.about{background:#12161b}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+.about-box{padding:30px;background:#1a1f25;border-radius:12px;border:1px solid #30363d}
+.about-box p{margin:12px 0 20px}
+.contact{text-align:center;padding:45px 25px;background:#15191e;border:1px solid #30363d;border-radius:15px}
+.contact p{max-width:550px;margin:15px auto 25px}
+footer{text-align:center;padding:25px;border-top:1px solid #292d32;font-size:13px;color:#aeb5bf}
+@media(max-width:850px){.services{grid-template-columns:repeat(2,1fr)}.about-grid{grid-template-columns:1fr}}
+@media(max-width:480px){.services{grid-template-columns:1fr}.hero{padding:65px 0}nav .btn{font-size:12px;padding:10px}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<nav>
+<div class="logo">ELÉTRICA <span style="color:#ffc928">RM</span></div>
+<a class="btn" href="#contato">Pedir orçamento</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="hero">
+<div class="container hero-content">
+<span class="tag">Soluções elétricas</span>
+<h1>Energia para seus projetos. <span>Confiança em cada conexão.</span></h1>
+<p>Padrões de energia, soluções em energia solar e materiais elétricos para sua casa, obra ou empresa.</p>
+<a class="btn" href="#servicos">Conheça nossos serviços →</a>
+</div>
+</section>
+
+<section id="servicos">
+<div class="container">
+<span class="tag">O que fazemos</span>
+<h2>Soluções para cada necessidade</h2>
+<p class="intro">Tudo o que você precisa para tirar seu projeto elétrico do papel.</p>
+<div class="services">
+<div class="card"><div class="icon">⚡</div><h3>Padrões de energia</h3><p>Soluções para instalação e adequação de padrões de entrada de energia.</p></div>
+<div class="card"><div class="icon">☀️</div><h3>Energia solar</h3><p>Alternativas em energia fotovoltaica para projetos residenciais e comerciais.</p></div>
+<div class="card"><div class="icon">🔌</div><h3>Materiais elétricos</h3><p>Peças e materiais para instalações, manutenção e obras.</p></div>
+<div class="card"><div class="icon">🛠️</div><h3>Serviços elétricos</h3><p>Atendimento para diferentes necessidades e projetos elétricos.</p></div>
+</div>
+</div>
+</section>
+
+<section class="about">
+<div class="container about-grid">
+<div>
+<span class="tag">Elétrica RM</span>
+<h2>Seu projeto merece atenção aos detalhes.</h2>
+<p>Conte com atendimento próximo para conhecer opções de materiais e soluções adequadas ao seu projeto.</p>
+</div>
+<div class="about-box">
+<h3>Vamos conversar sobre seu projeto?</h3>
+<p>Entre em contato para consultar os serviços disponíveis e solicitar um orçamento.</p>
+<a class="btn" href="#contato">Fale com a nossa equipe</a>
+</div>
+</div>
+</section>
+
+<section id="contato">
+<div class="container">
+<div class="contact">
+<span class="tag">Entre em contato</span>
+<h2>Vamos tirar seu projeto do papel?</h2>
+<p>Fale com a Elétrica RM e consulte informações sobre serviços, materiais elétricos e energia solar.</p>
+<a class="btn" id="whatsapp" href="#contato">Solicitar orçamento pelo WhatsApp</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer>© <span id="ano"></span> Elétrica RM · Demonstração de site</footer>
+
+<script>
+document.getElementById("ano").textContent=new Date().getFullYear();
+
+// Depois, troque pelo número real com código do país e DDD.
+// Exemplo fictício: 5531999999999
+const numero="";
+if(numero){
+document.getElementById("whatsapp").href="https://wa.me/"+numero;
+}else{
+document.getElementById("whatsapp").onclick=function(e){
+e.preventDefault();
+alert("O contato será ativado após adicionar o WhatsApp da empresa.");
+};
+}
+</script>
+</body>
+</html>
